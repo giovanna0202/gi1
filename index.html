@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Site com JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1>Exemplo Interativo com JavaScript</h1>
+
+        <!-- Efeito Parallax -->
+        <div class="parallax"></div>
+
+        <!-- Mensagem de sucesso -->
+        <div id="message" class="message hidden">
+            Formulário enviado com sucesso!
+        </div>
+
+        <!-- Formulário -->
+        <div id="formContainer">
+            <input type="text" id="name" placeholder="Digite seu nome">
+            <input type="email" id="email" placeholder="Digite seu email">
+            <input type="password" id="password" placeholder="Digite sua senha">
+            <button id="submitButton">Enviar</button>
+        </div>
+
+        <!-- Animação de carregamento -->
+        <div id="loading" class="loading hidden">
+            Enviando...
+        </div>
+
+        <button id="addElementButton">Adicionar Elemento</button>
+        <button id="removeElementButton">Remover Elemento</button>
+
+        <!-- Lista de elementos -->
+        <ul id="elementList">
+            <!-- Elementos serão adicionados ou removidos aqui -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
